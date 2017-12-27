@@ -1,0 +1,298 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+		<title></title>
+		<meta name="Keywords" content="关键词,关键词">
+		<meta name="description" content="描述">
+		
+
+		<style type="text/css">
+			div,p,dl,dd,h1,h2,h3,h4,h5,h6{margin:0;}
+			ol,ul{margin:0;padding:0;list-style:none;}
+			a{text-decoration:none;}
+			img{border:none;}
+			input{border:none;outline:none;}
+			*{margin:0;padding:0;}
+			.clearfix:after{content:"";display:block;clear:both;}
+			
+
+			/* 头部样式 */
+			header{
+				position: relative;
+				width: 100%;
+				height: 40px;
+				background: #333;
+			}
+			header nav{
+				float: left;
+				width: 1000px;
+				height: 40px;
+				margin-left:30px;
+				color:#fff;
+			}
+			header nav > ul > li{
+				float: left;
+				width: 103px;
+				height: 100%;
+				margin:0 20px;
+				text-align:center;
+				line-height:40px;
+			}
+			header nav > ul > li.li-two{
+				background: #000;
+			}
+			header nav > ul > li > a{
+				color:#fff;
+			}
+			header .header-div{
+				float: right;
+				width: 415px;
+				height: 40px;
+				line-height:40px;
+			}
+			header .header-div form .input-one{
+				height: 25px;
+				text-indent:1em;
+				border-radius:5px;
+			}
+			header .header-div form .input-two{
+				width: 35px;
+				height: 25px;
+				border-radius:5px;
+			}
+			header .header-div form .input-two:hover{
+				cursor:pointer;
+			}
+
+			/* 身体样式 */
+			.sec-one{
+				width: 1900px;
+				height: 750px;
+				/* border:1px solid red; */
+			}
+			.sec-one nav{
+				float: left;
+				width: 200px;
+				margin:10px 0 0 10px;
+				/* border:1px solid red; */
+			}
+			.sec-one nav > ul > li{
+				margin-top:10px;
+			}
+			.sec-one nav > ul > li > ul > li{
+				width: 180px;
+				height: 20px;
+				border:1px solid #aaa;
+			}
+			.sec-one nav > ul > li > p{
+				width: 55px;
+				height: 20px;
+				background: #aaa;
+				text-align:center;
+				line-height:20px;
+				font-size: 12px;
+				color:#fff;
+				border-radius:5px;
+			}
+			.sec-one nav > ul > li > ul > li > a{
+				color:#000;
+			}
+			.sec-one .section-a{
+				float: right;
+				width: 1555px;
+				height: 315px;
+				margin:10px 115px 0 20px;
+				background: #ccc;
+				border-radius:5px;
+			}
+			.sec-one .section-a > div{
+				margin-left:20px;
+				margin-top:60px;
+			}
+			.sec-one .section-a > div > h1{
+				font-size: 50px;
+			}
+			.sec-one .section-a > div > p{
+				margin-top:45px;
+			}
+			.sec-one .section-a > div > form > input{
+				width: 160px;
+				height: 35px;
+				margin-top:20px;
+				background: #03f;
+				font-size: 14px;
+				color:#fff;
+				border-radius:5px;
+			}
+			.sec-one .section-a > div > form > input:hover{
+				cursor:pointer;
+			}
+
+			.sec-one .section-b{
+				float: right;
+				width: 1553px;
+				height: 315px;
+				margin:10px 115px 0 20px;
+				/* border:1px solid red; */
+			}
+			.sec-one .section-b > ul > li{
+				float: left;
+				width: 33.333%;
+				height: 315px;
+				margin-top:70px;
+			} 
+			.sec-one .section-b > ul > li > div > h2{
+				
+				font-size: 30px;
+				color:#ccc;
+			}
+			.sec-one .section-b > ul > li > div > span{
+				color:#444;
+				font-size: 14px;
+			}
+			.sec-one .section-b > ul > li > div > form > input{
+				width: 100px;
+				height: 30px;
+				margin:20px 0 0 0;
+				background: #03f;
+				color:#fff;
+				border-radius:5px;
+			}
+			.sec-one .section-b > ul > li > div > form > input:hover{
+				cursor:pointer;
+			}
+
+
+
+			/* 尾部 样式 */
+			footer{
+				width: 2000px;
+				font-size: 12px;
+				text-align:center;
+				font-size: 14px;
+				/* border:1px solid red; */
+			}
+		</style>
+	</head>
+<body>
+
+	<!-- 头部 -->
+	<header>
+		<nav>
+			<ul class="clearfix">
+				<li><a href="">Project name</a></li>
+				<li class="li-two"><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Contact</a></li>
+				<li><a href="">Dropdown <i class="iconfont icon-xia"></i></a></li>
+			</ul>
+		</nav>
+		<div class="header-div">
+			<form action="">
+				<input type="text" name="" value="" placeholder="Email" class="input-one"/>
+				<input type="password" name="pwd" value="" placeholder="Password" class="input-one" />
+				<input type="button" name="" value="Sign" class="input-two" />
+			</form>
+		</div>
+	</header>
+
+
+	<!-- 身体 -->
+	<section class="sec-one clearfix">
+		<nav>
+			<ul>
+				<li>
+					<p>SIDEBAR</p>
+					<ul class="ul-a">
+						<li><a href="">Link</a></li>
+						<li><a href="">Link</a></li>
+						<li><a href="">Link</a></li>
+						<li><a href="">Link</a></li>
+					</ul>
+				</li>
+				<li>
+					<p>SIDEBAR</p>
+					<ul>
+						<li><a href="">Link</a></li>
+						<li><a href="">Link</a></li>
+						<li><a href="">Link</a></li>
+						<li><a href="">Link</a></li>
+						<li><a href="">Link</a></li>
+						<li><a href="">Link</a></li>
+					</ul>
+				</li>
+				<li>
+					<p>SIDEBAR</p>
+					<ul>
+						<li><a href="">Link</a></li>
+						<li><a href="">Link</a></li>
+						<li><a href="">Link</a></li>
+						<li><a href="">Link</a></li>
+						<li><a href="">Link</a></li>
+						<li><a href="">Link</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+
+		<section class="section-a">
+			<div>
+				<h1>Hello,Word!</h1>
+				<p>I hope I can get the job,and I will try my best to do it well.I hope I can get the job,and I will try >my best to do it well.I hope I can get the job,and I will try my best <br>to do it well.do it well.</p>
+				<form action="">
+					<input type="button" name="" value="learn more >>" />
+				</form>
+			</div>
+		</section>
+
+		<section class="section-b">
+			<ul class="clearfix">
+				<li>
+					<div class="header-div">
+						<h2>heading</h2>
+						<span>
+							I hope I can get the job,and I will try my best to do it <br>well.
+							I hope I can get the job,and I will try my best to do it well.<br>
+							I hope I can get the job,andI will try my best to <br>do it well.
+						</span>
+						<form action="">
+							<input type="button" name="" value="View deatis >>" />
+						</form>
+					</div>
+				</li>
+				<li>
+					<div class="header-div">
+						<h2>heading</h2>
+						<span>
+							I hope I can get the job,and I will try my best to do it <br>well.
+							I hope I can get the job,and I will try my best to do it well.<br>
+							I hope I can get the job,andI will try my best to <br>do it well.
+						</span>
+						<form action="">
+							<input type="button" name="" value="View deatis >>" />
+						</form>
+					</div>
+				</li>
+				<li>
+					<div class="header-div">
+						<h2>heading</h2>
+						<span>
+							I hope I can get the job,and I will try my best to do it <br>well.
+							I hope I can get the job,and I will try my best to do it well.<br>
+							I hope I can get the job,andI will try my best to <br>do it well.
+						</span>
+						<form action="">
+							<input type="button" name="" value="View deatis >>" />
+						</form>
+					</div>
+				</li>
+			</ul>
+		</section>
+	</section>
+	<!-- 尾部 -->
+	<footer>
+		<p>©Copy Right 陈维涛 all rights reserved</p>
+	</footer>
+</body>
+</html>
